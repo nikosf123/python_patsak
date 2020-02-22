@@ -12,7 +12,7 @@ def dhms_from_seconds(seconds):
 
 #Eisagwgh hmeromhnias - 1os tropos   
 
-#user_date = input('Εισαγετε ημερομηνία στη μορφή ΗΗ-MM-ΕΕΕΕ: ')
+#user_date = input(
 #day, month, year = map(int, user_date.split('-'))
 #date1 = datetime(year, month, day)
 
@@ -66,7 +66,7 @@ date1 = datetime(xronia, mhnas, hmera)
 #Current date
 date2 = datetime.now()
 
-
+print"-------------------------------------------"
 print("\n%d days, %d hours, %d seconds" % dhms_from_seconds(date_diff_in_seconds(date2, date1)))
 import calendar
 print ("oi meres aytoy toy mhna einai",calendar.monthrange(xronia,mhnas)[1])
