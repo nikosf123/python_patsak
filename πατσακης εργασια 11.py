@@ -1,12 +1,14 @@
 s=""
 print "gia na grapseis esu to arxeio me tis tetrades dwse 1 "
 print "gia ena aytomato arxeio me tetrades dwse 2 "
+print"-------------------------------------------"
 epil=raw_input("dwse epilogh  ")
 while epil !="1" and epil!="2":
   print "edwses lathos epilogh janadwse"
   epil=raw_input("dwse epilogh  ")
 if epil=="1":
   print "otan thes na stamathseis dwse thn lexi  telos "
+  print"-------------------------------------------"
   arxeio=raw_input("dwse arithmo ")
   while arxeio =="telos":
     print "den ginetai na dwseis telos xwris na exeis grapsei kamia terada"
@@ -39,10 +41,13 @@ else:
 fin=open ("file.txt","r")
 a=fin.read()
 fin.close()
+print"-------------------------------------------"
 print "tetrades arithmon \n",a
 ar=[]
 ari=""
 w=a+" "
+print"-------------------------------------------"
+print"dwse eji arithmous me thn seira"
 for i in w:
   if i!=" " and i!="\n":
     ari=ari+i
@@ -56,6 +61,7 @@ for i in range(6):
   wo.append(k) 
 print "oi arithmoi poy edwses einai",wo 
 print" kai me aytous toys arithmoys"
+print"-------------------------------------------"
 n=len(ar)
 pl=0
 a=0
@@ -72,5 +78,4 @@ for i in range(n/4):
 if found == True:
   print"yparxei diathesimh tetrada"
 else:
-  print"den iparxei diadesimh tetrada"      
-
+  print"den iparxei diadesimh tetrada"
